@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --font-family : 'Public Sans', sans-serif;
+    --primary-main :hsl(233, 26%, 24%);
+    --secondary-main :hsl(136, 65%, 51%);
+    --tertiary-main :hsl(192, 70%, 51%);
+    --neutral-light:hsl(0, 0%, 100%);
+    --neutral-main:hsl(0, 0%, 98%);
+    --neutral-dark:hsl(220, 16%, 96%);
+    --neutral-darker:hsl(233, 8%, 62%);
+
+    --fw-light:300;
+    --fw-regular:400;
+    --fw-bold:700;
+}
+
+body {
+    overflow-x: hidden;
+
+}

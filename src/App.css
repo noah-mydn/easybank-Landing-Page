@@ -1,0 +1,41 @@
+.navlink, .navlinkMobile {
+    position: relative;
+    font-family: var(--font-family) ;
+}
+.navlink {
+    padding:0 0.6em;
+}
+.navlink:hover, .navlinkMobile:hover {
+    color:var(--primary-main);
+}
+
+.navlink::after {
+  content: '';
+  position: absolute;
+  width: 65%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  top:210%;
+  left: 20%;
+  background-image: linear-gradient(90deg, var(--secondary-main) 40%, var(--tertiary-main) 60%);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navlink:hover::after{ 
+    transform: scaleX(1); 
+    transform-origin: bottom left; 
+}
+
+.navlinkMobile {
+    line-height: 2.5em;
+}
+
+.content-container {
+    height:550px;
+}
+
+
+
+
