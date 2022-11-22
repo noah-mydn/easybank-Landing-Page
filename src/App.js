@@ -17,8 +17,8 @@ function App() {
         <Grid direction='column' container sx={{
           width:'max-content',
           height:'auto',
-          margin:'0 !important',
-          padding:'0 !important',
+          margin:'0',
+          padding:'0',
         }}>
           <Home/>
           <About/>
