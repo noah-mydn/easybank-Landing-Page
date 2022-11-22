@@ -15,9 +15,15 @@
     --fw-bold:700;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 2em;
+}
+
 body {
     overflow-x: hidden;
     position:'relative';
-    scroll-padding-top: 5em;
+    
+    
 
 }

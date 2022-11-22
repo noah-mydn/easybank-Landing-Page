@@ -68,7 +68,7 @@ export const About = () => {
     
 
   return (
-    <Grid container id='about' direction='row'
+    <Grid container direction='row' id='about'
     sx={{backgroundColor: theme.palette.neutral.main,
         width:'100vw',
         marginTop:0,

@@ -41,6 +41,10 @@ export const Blogs = () => {
         '@media (max-width:1360px)' : {
             margin:'3.2em 1.8em 0 0'
           },
+
+          '@media (max-width:700px)' : {
+            maxWidth:320,
+          },
     })
 
 
