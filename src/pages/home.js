@@ -13,7 +13,7 @@ export const Home = () => {
       width:'60%',
       display:'flex',
       flexDirection:'column',
-      margin:'0 auto',    
+      paddingLeft:'4.5em',   
       paddingTop:'3em',
 
       '@media (max-width:1200px)' : {
@@ -23,6 +23,10 @@ export const Home = () => {
     '@media (max-width:899px)' : {
       width:'100%',
       paddingLeft:'1em'
+    },
+
+    '@media(max-width:700px)': {
+      paddingLeft:0,
     }
     })
 
@@ -72,7 +76,6 @@ export const Home = () => {
         width:'120%',
         left:'-10%',
         top:'8%',
-        objectFit:'cover'
       }
     })
 
@@ -92,15 +95,17 @@ export const Home = () => {
 
 
   return (
-    <Grid container id='home' direction='row' 
-    sx={{backgroundColor:theme.palette.neutral.light,
+    <Grid container id='home' direction='row'
+    sx={{width:'100vw',
+    margin:0,
+    backgroundColor:theme.palette.neutral.light,
     flexDirection:'row',
+    padding:'1em 0 3em 0',
     justifyContent:'center',
     alignContent:{sm:'center',xs:'start'},
     alignItems:{sm:'center'},
-  }}
-    
-    className='content-container'>
+    height:{sm:'550px', xs:'fit-content'},
+  }}>
         
         {!match && <>
           <Grid item sm={6}>

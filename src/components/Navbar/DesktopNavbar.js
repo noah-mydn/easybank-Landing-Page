@@ -5,25 +5,6 @@ import { Box } from '@mui/system'
 import React from 'react'
 
 
-
-const onHoverAnimation = keyframes`
-    
-    0% {
-        background: linear-gradient(270deg, hsl(136, 65%, 51%) , hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-    }
-    25% {
-        background: linear-gradient(270deg, hsl(192, 70%, 51%),hsl(136, 65%, 51%) ,hsl(192, 70%, 51%));
-    }
-    50% {
-        background: linear-gradient(270deg,hsl(192, 70%, 51%),hsl(192, 70%, 51%),hsl(136, 65%, 51%));
-    }
-    75% {
-        background: linear-gradient(270deg, hsl(136, 65%, 51%),hsl(192, 70%, 51%), hsl(136, 65%, 51%));
-    }
-    100% {
-        background: linear-gradient(270deg, hsl(136, 65%, 51%),hsl(192, 70%, 51%),hsl(136, 65%, 51%),hsl(192, 70%, 51%));
-    }`;
-
 export const RequestButton = styled(Button) (({theme})=>({
     textTransform:'none',
     padding:'0.3em 1em',
@@ -31,10 +12,15 @@ export const RequestButton = styled(Button) (({theme})=>({
     fontWeight:theme.typography.fontWeightMedium,
     borderRadius:'30px',
     color:theme.palette.neutral.light,
-    background: 'linear-gradient(270deg, hsl(136, 65%, 51%),hsl(192, 70%, 51%))',
+    background: 'linear-gradient(to right, #31d35c 0%,#2bb7da 50%,#b3e6e6 100%)',
+    backgroundSize: '200% auto',
+    transition: 'background 1500ms infinite ease-in-out',
+        MozTransition:'background 1500ms infinite ease-in-out',
+        WebkitTransition:'background 1500ms infinite ease-in-out',
+        msTransition:'background 1500ms infinite ease-in-out',
     
     '&:hover' : {
-        animation : `${onHoverAnimation} 1000ms infinite  ease-in-out`,
+        backgroundPosition: '50% center',
         },
     }
 ))
