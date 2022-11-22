@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/noah-mydn/easybank-Landing-Page](https://github.com/noah-mydn/easybank-Landing-Page)
-- Live Site URL: [Add live site URL here](https://easybank-landing-page-noah.netlify.app/)
+- Live Site URL: [https://easybank-landing-page-noah.netlify.app/](https://easybank-landing-page-noah.netlify.app/)
 
 
 ### Built with
