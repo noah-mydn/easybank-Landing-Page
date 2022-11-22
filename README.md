@@ -57,11 +57,11 @@ s
 
 - Website - [May Yadanar](https://noah-mydn.netlify.app/)
 - Frontend Mentor - [@noah-mydn](https://www.frontendmentor.io/profile/noah-mydn)
-- Twitter - [@noah-mydn](https://www.twitter.com/noah-mydn)
+- Twitter - [@noah-mydn](https://www.twitter.com/noah_mydn)
 
 
 ## Acknowledgments
 
 - [CodeVolution](https://www.youtube.com/watch?v=BHEPVdfBAqE&list=PLC3y8-rFHvwh-K9mDlrrcDywl7CeVL2rO) - I've gained a lot of insightful ideas and knowledge on how to style with React MUI framework
 
--[Navigation-Animation](https://www.30secondsofcode.org/css/s/hover-underline-animation) - Got the beautiful onHover transistion animation on navbar from this 30secondsofcode 
+- [Navigation-Animation](https://www.30secondsofcode.org/css/s/hover-underline-animation) - Got the beautiful onHover transistion animation on navbar from this 30secondsofcode 
