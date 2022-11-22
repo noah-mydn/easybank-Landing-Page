@@ -17,6 +17,7 @@
 
 body {
     overflow-x: hidden;
-    position:'relative'
+    position:'relative';
+    scroll-padding-top: 5em;
 
 }

@@ -4,6 +4,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import './App.css';
 import { Navbar } from './components/Navbar/Navbar';
 import { About } from './pages/about';
+import { Blogs } from './pages/blog';
 import { Home } from './pages/home';
 import { theme } from './styles/theme';
 
@@ -19,6 +20,7 @@ function App() {
         }}>
           <Home/>
           <About/>
+          <Blogs/>
         </Grid>
     </ThemeProvider>
   );

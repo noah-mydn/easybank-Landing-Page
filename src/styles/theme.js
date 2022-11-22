@@ -33,6 +33,19 @@ export let theme = createTheme({
         '@media (max-width:700px)': {
             fontSize: 16,
           },
+
+        h6 : {
+            fontSize:18,
+            padding:'0.5em 0',
+        },
+
+        caption: {
+            fontSize:14,
+        },
+        
+        subtitle1 : {
+            fontSize:16,
+        }
     },
 
     breakpoints: {
@@ -45,5 +58,6 @@ export let theme = createTheme({
         },
       },
 });
+
 
 theme= responsiveFontSizes(theme);

@@ -44,10 +44,6 @@ export const About = () => {
           },
 
           '@media (max-width:899px)' : {
-            padding:'2em 3em'
-          },
-
-          '@media (max-width:899px)' : {
             padding:'2em 0'
           },
 
